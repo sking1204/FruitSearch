@@ -1,0 +1,69 @@
+html{
+  background: linear-gradient(90deg, hsla(56, 92%, 47%, 1) 0%, hsla(31, 89%, 51%, 1) 100%);
+}
+
+
+input{
+  
+  background-color:rgb(250, 189, 56);
+  padding:.5rem;    
+  border:none;     
+  outline:none;    
+  width:300px;
+  height:50px;
+  
+}
+
+.input-wrapper{
+  position:absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/*list-style:none <--gets rid of the list bullet points  */
+
+
+.suggestions-list{   
+  border-top: 1px solid orangered;  
+  list-style:none;
+  padding:0;
+  margin:0 ;  
+  position:absolute;
+  width:100%;
+  max-height: 300px;
+  overflow-y :scroll;     
+  background-color:rgb(250, 189, 56);
+  
+}
+
+.suggestions-list li{
+  padding-left:0.5rem;
+  padding-top:8px;
+  padding-bottom:8px;
+
+}
+
+/*Add hover to li's and change cursor to pointer so 
+user knows they can click*/  
+
+.suggestions ul li:hover{
+  background: hsla(31, 89%, 51%, 1);
+  cursor:pointer;
+  
+}
+
+.suggestions-wrapper{
+  display:inline-block;
+  position:relative;
+
+}
+
+
+
+
+
+
+
+
